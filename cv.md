@@ -18,3 +18,7 @@ let bonusBalance = 131;
 console.log("Пользователь: " + username);
 console.log("Баланс: " + bonusBalance);
 ```
+## My education
+   + Moscow State University of Instrument Engineering and Computer Science
+   + Netology course "JS for beginners"
+   + English language courses
