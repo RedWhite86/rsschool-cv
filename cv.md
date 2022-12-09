@@ -5,10 +5,16 @@
    * **E-mail:** martynov-f@yandex.ru
    * **Telegram:** @RedWhite86
 ## About me
-My main goal is to change my job. I am ready to study and improve my skills to reach it. 
+_My main goal is to change my job. I am ready to study and improve my skills to reach it._ 
 ## My skills
    + HTML
    + CSS
    + Git
    + Softskills 
-
+## Code example
+```
+let username = "LeoTolstoy";
+let bonusBalance = 131;
+console.log("Пользователь: " + username);
+console.log("Баланс: " + bonusBalance);
+```
