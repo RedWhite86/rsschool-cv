@@ -22,3 +22,6 @@ console.log("Баланс: " + bonusBalance);
    + Moscow State University of Instrument Engineering and Computer Science
    + Netology course "JS for beginners"
    + English language courses
+## Languages
+   * Russian - native speaker
+   * English - C1 (IELTS general 7.5)  
