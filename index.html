@@ -4,9 +4,94 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CV Fedor Martynov</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">My code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section" id="profile">
+        <h1 class="section-title">Fedor Martynov</h1> 
+        <img class="avatar" src="./assets/me.jpg" alt="avatar">
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul>
+          <li class="list-item">Phone: +7(977)801-05-89</li>
+          <li class="list-item">E-mail: martynov-f@yandex.ru</li>
+          <li class="list-item">Telegramm: @RedWhite86</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p class="about"></p>My main goal is to change my job. I am ready to study and improve my skills to reach it.</p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">My skills</h2>
+        <ul class="my-skills">
+          <li class="list-item">HTML</li>
+          <li class="list-item">CSS</li>
+          <li class="list-item">Git</li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code example</h2>
+        <pre>
+          <code class="code">
+let username = "LeoTolstoy";
+let bonusBalance = 131;
+console.log("Пользователь: " + username);
+console.log("Баланс: " + bonusBalance);
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">My education</h2>
+        <ul class="my-education">
+          <li class="list-item">Moscow State University of Instrument Engineering and Computer Science</li>
+          <li class="list-item">Netology course "JS for beginners"</li>
+          <li class="list-item">English language courses</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="my-languages">
+          <li class="list-item">Russian - native speaker</li>
+          <li class="list-item">English - C1 (IELTS general 7.5)</li>
+        </ul>
+      </section>
 
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>&copy; 2022</div>
+      <div>
+        <a href="https://github.com/RedWhite86">
+          <img src="assets/github-mark.svg" alt="GitHub">
+        </a>
+      </div>
+      <div>
+        <a href="https://rs.school/js-stage0/">
+          <img src="assets/rs_school_js.svg" alt="RS School">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
