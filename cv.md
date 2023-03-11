@@ -1,7 +1,7 @@
 # ***Fedor Martynov - Junior Frontend Web Developer***
 
 ## Contact information
-   * **Phone:** +79778010589
+   * **Phone:** +79778010589 +79652311659
    * **E-mail:** martynov-f@yandex.ru
    * **Telegram:** @RedWhite86
 ## About me
